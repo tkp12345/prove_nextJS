@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./pages/**/*.tsx'],
+  content: ['./pages/**/*.tsx','./src/**/*.tsx'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'roberto-color':'red',
+      }
+    },
   },
   plugins: [],
 }
